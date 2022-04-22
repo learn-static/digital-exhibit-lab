@@ -1,0 +1,47 @@
+{% assign fcount = site.data.config-table | size %}
+{%- assign fields = site.data.config-table | map: 'field' -%}
+<script type="text/javascript" language="javascript" src="{{ '/assets/lib/datatables/datatables.min.js' | relative_url }}"></script>
+<script>
+
+function pageInit(items) {
+    // set up data
+    var table_data = [];
+    // get configured fields
+    for (var i = 0; i < items.length; i++) {
+        var row = [];
+        {% for f in fields %}
+        if(items[i][{{ f | jsonify }}]) { row.push(items[i][{{ f | jsonify }}]); } else { row.push("n/a"); }
+        {% endfor %}
+        row.push("{{ '/item.html?id=' | relative_url }}" + items[i].objectid );
+        table_data.push(row);
+    }
+    // init datatables 
+    $('#item-table').DataTable( {
+        // use DataTables ajax load to 
+        data: table_data,
+        // defer render to speed up large sets
+        "deferRender": true,
+        // enable pagination 
+        "paging": true,
+        "lengthMenu": [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
+        // add download features
+        dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>', 
+        buttons: [ 'excelHtml5', 'csvHtml5' ],
+        // set up the columns from the json
+        columns: [ {% for i in (0..fcount) %}{ data: '{{ i }}' }{% unless forloop.last %},{% endunless %}{% endfor %} ],
+        columnDefs: [ 
+            // turn relative link into absolute
+            { "render": function ( data ) { return '{{ site.url }}' + data; },"targets": {{ fcount }} },
+            // combine link with first column
+            { "render": function ( data, type, row ) { return '<a href="' + row['{{ fcount }}'] +'">'+ data +'</a>'; },"targets": 0 },
+            // hide the link column
+            { "visible": false,  "targets": [ {{ fcount }} ] }
+        ],
+        // sort based on the second column
+        order: [[ 1, "asc" ]]
+    });
+}
+
+{% include js/cb-items.js %}
+
+</script>

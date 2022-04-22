@@ -1,0 +1,81 @@
+##########
+# collectionbuilder-sheets
+# Jekyll Digital Collection Generator, designed for GitHub Pages
+# https://github.com/CollectionBuilder/collectionbuilder-sheets
+##########
+
+##########
+# URL VARIABLES [optional if using GitHub Pages!]
+#
+# url is site domain, full URL to the production location of your collection
+# on GitHub Pages follows the pattern username.github.io
+#url: https://collectionbuilder.github.io 
+# baseurl is path to location on the domain if necessary e.g. /digital/hjccc
+# on GitHub Pages it is your github repository's name prefixed with a /
+#baseurl: /collectionbuilder-gh 
+# location of code, the full url to your github repository
+source-code: https://github.com/learn-static/digital-collection-module
+
+##########
+# SITE SETTINGS
+#
+# title of site appears in banner
+title: Mining the Archives
+# tagline, a short phrase that will appear throughout the site in the top banner
+tagline: A curated course project
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: "A demo digital exhibit curated by students in Example course."
+# creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
+author: learn-static
+
+##########
+# COLLECTION SETTINGS
+#
+# Set the metadata for your collection 
+# This will be the full URL to your CSV file or relative path + filename of CSV in this repository 
+# e.g. relative path "/assets/demo-metadata.csv"
+# e.g. published google sheet "https://docs.google.com/spreadsheets/d/e/2PACX-1vSn7AA-cbsXT3_nNUGftc1ab-CKXOJHMQCIENeR9NHElbyI9_qA99o0-HNZdG04v-M2_N21bUe_krQQ/pub?gid=0&single=true&output=csv"
+# e.g. on GitHub use the raw link "https://raw.githubusercontent.com/CollectionBuilder/collectionbuilder-sample-data/master/psychiana_cbdemo_gh.csv"
+metadata-csv: /assets/metadata_demo.csv
+
+##########
+# Site/Organization Branding 
+#   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
+#
+organization-name: "Learn-Static"
+organization-link: https://github.com/learn-static
+organization-logo-banner: /assets/img/learn-static.svg
+organization-logo-nav: /assets/img/learn-static-white.svg
+
+
+##########
+# GOOGLE SERVICES [optional!]
+#
+# leave these blank or comment out to NOT include google code. See docs/google.md
+#
+# Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
+# google-analytics-id:
+# to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
+# google-cse-id: 
+
+##########
+# ROBOTS EXCLUDE
+#
+# set noindex to true if you do NOT want Google to index your site
+# noindex: true 
+
+##########
+# BUILD SETTINGS 
+#
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
+#
+# add development refresh button
+development-refresh: true
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE]
+# compress CSS output
+sass:
+  style: compressed

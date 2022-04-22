@@ -1,0 +1,7 @@
+field,display_name,btn,hidden,sort_name
+date,Date,,,Date
+creator,Creator,,,
+subject,,true
+location,,true
+record_contributor,,,true,
+item_source,,,true

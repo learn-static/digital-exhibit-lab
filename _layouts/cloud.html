@@ -1,0 +1,11 @@
+---
+# Term cloud layout
+# used by default subjects and location page
+# can be used for any metadata field cloud
+layout: page
+custom-foot: js/cloud-js.html
+---
+
+{{ content }}
+
+<div id="cloud-{{ page.cloud-fields | slugify }}" class="text-center my-4 bg-{{ page.background | default: 'light' }} border rounded p-2"></div>
