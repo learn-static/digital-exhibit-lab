@@ -4,3 +4,4 @@
 - collectionbuilder-sheets intro
 - shared Sheets logistics
 - example assignments
+- example: https://github.com/thecdil/hist-454-2022

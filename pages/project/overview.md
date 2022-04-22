@@ -6,11 +6,11 @@ permalink: /project/overview.html
 
 {% include feature/jumbotron.html objectid="https://digital.lib.uidaho.edu/digital/iiif/watkins/56/full/pct:60/0/default.jpg" %}
 
-# Mining the Archives Project Overview
+# Digital Collection Module Overview
 
-*Mining the Archives* module is a digital collection experience designed to actively teach digital scholarship concepts.
+*Digital Collection Module* module is a digital collection experience designed to actively teach digital scholarship concepts.
 
-*Mining the Archives* project involves several components:
+*Digital Collection Module* project involves several components:
 
 - **Archival Research:** Working with [U of I Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/), explore and do hands on research with primary source materials related to mining. Highlighted materials include:
     - [Bunker Hill Company records, 1887-1984](http://archiveswest.orbiscascade.org/ark:/80444/xv65328)
@@ -48,7 +48,7 @@ Each of these choices bring biases, [archival silences](https://dictionary.archi
 
 In this project you will also be making selections, mining the archive to curate a small set of records relevant to the course research project.
 Your first act of curation is selecting your objects for digitization from the archives.
-We would like you to go further, enhancing the final *Mining the Archives* collection by selecting five items from U of I digital collections relevant to your research questions.
+We would like you to go further, enhancing the final *Digital Collection Module* collection by selecting five items from U of I digital collections relevant to your research questions.
 
 While digging into the existing digital archives, consider how this process is different than your experience working with the physical archives in Special Collections.
 
@@ -95,7 +95,7 @@ See [Metadata Guidelines]({{ '/project/metadata.html' | relative_url }}) for det
 > *online exhibition*, n. a curated display of archival resources accessible via the internet. Notes: Not simply a digital collection, an online exhibition is a collection of interrelated archival resources focused around a theme. ([SAA Dictionary](https://dictionary.archivists.org/entry/online-exhibition.html))
 {:.blockquote .border-left .pl-3 .lead .my-3}
 
-Everyone's work on the project will contribute to the *Mining the Archives* digital exhibit.
+Everyone's work on the project will contribute to the *Digital Collection Module* digital exhibit.
 Once objects and metadata are complete, the CDIL team will add them to the [project repository](https://github.com/thecdil/hist-454-2022) hosted on GitHub, publishing our final collection.
 The objects on this site can be used and cited in your research writing.
 

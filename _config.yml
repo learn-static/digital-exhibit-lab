@@ -20,7 +20,7 @@ source-code: https://github.com/learn-static/digital-collection-module
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Mining the Archives
+title: Digital Collection Module
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: A curated course project
 # description appears in meta tags and other locations
@@ -34,9 +34,9 @@ author: learn-static
 #
 # Set the metadata for your collection 
 # This will be the full URL to your CSV file or relative path + filename of CSV in this repository 
-# e.g. relative path "/assets/demo-metadata.csv"
-# e.g. published google sheet "https://docs.google.com/spreadsheets/d/e/2PACX-1vSn7AA-cbsXT3_nNUGftc1ab-CKXOJHMQCIENeR9NHElbyI9_qA99o0-HNZdG04v-M2_N21bUe_krQQ/pub?gid=0&single=true&output=csv"
-# e.g. on GitHub use the raw link "https://raw.githubusercontent.com/CollectionBuilder/collectionbuilder-sample-data/master/psychiana_cbdemo_gh.csv"
+# e.g. relative path "/assets/demo_metadata.csv"
+# e.g. published google sheet "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAmItLe8lSE2Pk8-HGFsK7xA_L31j1ZuwDYc4nkAqmxNaIx03-ve-nAPWoC5GsrIpy2xhwnDzxjteD/pub?output=csv"
+# e.g. on GitHub use the raw link "https://raw.githubusercontent.com/learn-static/digital-collection-module/main/assets/metadata_demo.csv"
 metadata-csv: /assets/metadata_demo.csv
 
 ##########

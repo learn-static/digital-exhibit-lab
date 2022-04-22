@@ -16,7 +16,7 @@ For this project digitizing photographs and textual documents, using a flatbed s
 Make sure that hands are clean and dry when handling materials for scanning or any type of digitization work; all materials should be handled with care and attention. These items cannot be replaced or easily repaired if destroyed or damaged.{% endcapture %}
 {% include feature/alert.html text=text color="warning" %}
 
-CDIL's scanning stations will be set up and ready for you to work.
+The scanning stations will be set up and ready for you to work.
 Below is an overview of the steps:
 
 - Open EpsonScan scanning software.
@@ -46,5 +46,5 @@ Once you have completed scanning all pages of your document, you will have a ser
 Once you have completed your batch of scanning and created PDFs (as necessary), upload the final files (with correct filenames!) into the shared Google Drive folder.
 Be sure to copy the file names into your metadata template "filename" field!
 
-CDIL staff will transfer the files to project repository.
+Digitization lab staff will transfer the files to project repository.
 You will have access to the files in the shared Google Drive and final digital collection website.

@@ -8,13 +8,13 @@ permalink: /project/metadata.html
 
 You will be creating metadata for two types of items: 
 
-- the photograph(s) and document(s) you digitized from U of I archival collections --> your "digitized objects".
-- five already digitized items selected from U of I digital collections --> your "curated objects".
+- the photograph(s) and document(s) you digitized from the archival collections --> your "digitized objects".
+- five already digitized items selected from the digital collections --> your "curated objects".
 
 Both digitized and curated objects will be described using the same metadata template.
-To create your metadata for the project, you will first make a copy of the metadata template "hist454_metadata_template" in Google Drive:
+To create your metadata for the project, you will first make a copy of the metadata template "dcm_metadata_template" in Google Drive:
 
-[HIST 454 Metadata Template](https://docs.google.com/spreadsheets/d/1UG_JhZ1lYLsFeoNpO_D7dztmG8elcZlEaID-mz7QTh8/copy?usp=sharing){:.btn .btn-outline-success target="_blank" rel="noopener"}
+[DCM Metadata Template](https://docs.google.com/spreadsheets/d/16ZxZ7yhFVne6rChY7frpzDN94sthAKsRU1UOvprwgzk/copy?usp=sharing){:.btn .btn-outline-success target="_blank" rel="noopener"}
 {:.text-center}
 
 Describe your digitized objects and curated items in **your copy** of the template, following the guidelines below. 
@@ -40,7 +40,7 @@ For curated items, use the existing metadata as a guide and starting point.
 ### record_contributor
 
 - This is your name! Get credit for your work and show that you did the assignment.
-- If you are uncomfortable using your real name, feel free to use a professional sounding false one--let Matt know your pseudonym.
+- If you are uncomfortable using your real name, feel free to use a professional sounding false one--let us know your pseudonym.
 - Example: `Evan Williamson` 
 
 ### objectid 
@@ -48,10 +48,10 @@ For curated items, use the existing metadata as a guide and starting point.
 - *required*
 - Unique identifier for the record. Each record needs to have a unique one or it won't show up in the collection. It allows us to refer to the item in the collection.
 - Value must be all **lowercase** with no spaces or special characters. Underscores (`_`) and dashes (`-`) are okay; **slashes (`/`) should NOT be used in this field**.
-- For this project, please follow the convention of using `hist454-` + your initials + the number of record created by you.
+- For this project, please follow the convention of using `dcm-` + your initials + the number of record created by you.
 - Examples:
-    - `hist454-ew01` 
-    - `hist454-ew02`
+    - `dcm-ep01` 
+    - `dcm-ep02`
 
 ### filename 
 
@@ -60,8 +60,8 @@ For curated items, use the existing metadata as a guide and starting point.
     - For digitized objects, the value must **exactly** match the filename you gave to your item, including the extension (which should be ".jpg" or ".pdf"). Naming your files following the same convention as the "objectid" makes things easiest!
     - For curated objects from U of I collections, the value will be a full URL to the downloadable file. You can find this in our digital collections by copying the "Download" link from an individual item page.
 - Examples: 
-    - digitized image: `hist454-ew01.jpg`
-    - digitized document: `hist454-ew02.pdf`
+    - digitized image: `dcm-ep01.jpg`
+    - digitized document: `dcm-ep02.pdf`
     - link to image: `https://digital.lib.uidaho.edu/digital/iiif/bar-stock/1147/full/max/0/default.jpg`
 
 ### title
