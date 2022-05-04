@@ -24,12 +24,18 @@ if (sessionStorage.getItem("cb_items_store")) {
   cb_items = JSON.parse(sessionStorage.getItem("cb_items_store"));
   pageInit(cb_items);
 
+} else if (sessionStorage.getItem("cb_metadata_set") && sessionStorage.getItem("cb_metadata_set").includes("https://")) {
+  cb_items_init(sessionStorage.getItem("cb_metadata_set"));
 } else if (config_metadata != "") { 
   cb_items_init(config_metadata);
 } else {
-  // if no CSV is configured, redirect to the set up page
-  window.location.href = "{{ '/project/setup.html' | absolute_url }}";
-
+  // if no CSV is configured, add a warning alert
+  var metadataAlert = document.createElement("div");
+  metadataAlert.classList.add("container");
+  metadataAlert.innerHTML = `<div class="alert alert-warning mt-3 text-center h3" role="alert">
+    This site has no metadata set in "_config.yml"<br> please <a href="{{ '/setup/' | relative_url }}" class="alert-link">visit the setup page</a> to configure!
+  </div>`;
+  document.querySelector("main").prepend(metadataAlert);
 }
 
 {% if site.development-refresh == true %}
@@ -37,11 +43,18 @@ if (sessionStorage.getItem("cb_metadata_set")) {
   var refreshButton = document.createElement("div");
   refreshButton.classList.add("dev-buttons");
   refreshButton.innerHTML = `<div class="btn-group-vertical">
-    <button class="btn btn-sm btn-secondary" onclick="resetStore()" id="refreshButton">Reset Metadata</button>
-    <a class="btn btn-sm btn-info" href="{{ '/project/setup.html' | relative_url }}">Configure Metadata</a>
+    ${ sessionStorage.getItem("cb_metadata_set").includes("https://") ? '<button class="btn btn-sm btn-info" onclick="refreshMetadata()" id="refreshButton">Refresh Metadata</button>' : '' }
+    <a class="btn btn-sm btn-warning" href="{{ '/setup/' | relative_url }}">Change Metadata</a>
+    <button class="btn btn-sm btn-secondary" onclick="resetMetadata()" id="refreshButton">Reset</button>
     </div>`;
   document.body.appendChild(refreshButton);
-  function resetStore () {
+  function refreshMetadata () {
+    // remove data
+    sessionStorage.removeItem("cb_items_store");
+    // reload
+    location.reload();
+  }
+  function resetMetadata () {
     // remove data
     sessionStorage.removeItem("cb_items_store");
     sessionStorage.removeItem("cb_metadata_set");
