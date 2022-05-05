@@ -4,7 +4,7 @@
 
         <div class="col-md-7  px-4 mt-2">
 
-            <div class="h4"><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></div>
+            <h4><a href="{{ '/' | relative_url }}" class="text-white font-weight-normal">{{ site.title }}</a></h4>
             <p class="text-white"><small>{{ site.description }}</small></p>
             <nav>
                 <ul id="footer-nav" class="nav nav-pills ">
@@ -24,9 +24,9 @@
 
         </div>
 
-        <div class="col-md-5 mt-2 text-right">
+        <div class="col-md-5 mt-2 text-end">
 
-           {% if site.organization-logo-nav %} <p class="text-right">
+           {% if site.organization-logo-nav %} <p class="text-end">
                 <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
                     <img id="footer-logo" class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home">
                 </a>
