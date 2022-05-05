@@ -10,23 +10,20 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://digital.lib.uidaho.edu/digital/iiif/watkins/56/full/pct:70/0/default.jpg" %}
 
-{% include feature/nav-menu.html sections="About Mining the Archive Project;The Assignment" %}
+{% include feature/nav-menu.html sections="About Digital Collection Module;The Assignment" %}
 
-## About Mining the Archive Project
+## About Digital Collection Module
 
-The historical archive is a repository of memory -- shaping in profound ways what we can know about the past. 
-But historical archives are always changing. 
-Sometimes, changes come about as historical societies and university libraries acquire new collections, creating a deeper and richer landscape of materials for the historian to investigate. 
-In other instances, the very format of the archive undergoes transformation, as in the case of the rise of digital collections over the past few decades. 
+This Learn-Static module is designed to teach digital scholarship concepts via an experience creating a digital collection.
+Students are invited to do archival research, curation, description, and metadata, resulting in a final published digital exhibit website.
 
-This newfound world of digital archives presents powerful new opportunities for historical research -- as anyone with an internet connection now has access to a dizzying wealth of documents -- as it raises compelling questions about how we make meaning from the traces of history. 
-Understanding the digital archive is especially crucial for grasping the history of American photography, given the rapid digitization of photographs and the capacity of such photographs to become untethered from their historical contexts. 
+The project can be framed in different ways to emphasize various aspects of the process or learn specific digital skills.
 
-In this project, we will explore the nature and power of the digital archive by actually creating a digital archive. 
-We will do so by drawing upon original primary source material -- both written and photographic -- from U of I Special Collections. 
-Since one of the key strengths of our Special Collections is the history of mining, we will make that history the focal point of our work.
+This module is based on [CollectionBuilder-Sheets](https://github.com/CollectionBuilder/collectionbuilder-sheets), a framework for creating digital exhibits driven by a metadata spreadsheet.
+Powered by a static web approach, CollectionBuilder minimizes the technical overhead, maintenance, and complexity--if hosted on GitHub (or similar code hosting service), creating a project does not require a server or installing software.
+This enables individual instructors, librarians, DH labs, or even the students themselves to set up the project.
 
-*-- MATTHEW FOX-AMATO*
+For a demonstration of the module used in a course see ["Mining the Archives", History 454](https://thecdil.github.io/hist-454-2022/).
 
 ## The Assignment
 
