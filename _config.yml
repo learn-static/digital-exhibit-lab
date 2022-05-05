@@ -1,5 +1,5 @@
 ##########
-# Learn-Static Digital Collection Module
+# Learn-Static Digital Exhibit Lab
 # built with collectionbuilder-sheets
 # Jekyll Digital Collection Generator, designed for GitHub Pages
 # https://github.com/CollectionBuilder/collectionbuilder-sheets
@@ -15,13 +15,13 @@
 # on GitHub Pages it is your github repository's name prefixed with a /
 #baseurl: /collectionbuilder-gh 
 # location of code, the full url to your github repository
-source-code: https://github.com/learn-static/digital-collection-module
+source-code: https://github.com/learn-static/digital-exhibit-lab
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Digital Collection Module
+title: Digital Exhibit Lab
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: A curated course project
 # description appears in meta tags and other locations
@@ -37,7 +37,7 @@ author: learn-static
 # This will be the full URL to your CSV file or relative path + filename of CSV in this repository 
 # e.g. relative path "/assets/demo_metadata.csv"
 # e.g. published google sheet "https://docs.google.com/spreadsheets/d/e/2PACX-1vQAmItLe8lSE2Pk8-HGFsK7xA_L31j1ZuwDYc4nkAqmxNaIx03-ve-nAPWoC5GsrIpy2xhwnDzxjteD/pub?output=csv"
-# e.g. on GitHub use the raw link "https://raw.githubusercontent.com/learn-static/digital-collection-module/main/assets/metadata_demo.csv"
+# e.g. on GitHub use the raw link "https://raw.githubusercontent.com/learn-static/digital-exhibit-lab/main/assets/metadata_demo.csv"
 metadata-csv: /assets/metadata_demo.csv
 
 ##########

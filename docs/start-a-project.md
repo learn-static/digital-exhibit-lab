@@ -1,4 +1,4 @@
-# How to Set Up a digital-collection-module project
+# How to Set Up a digital-exhibit-lab project
 
 - template button
 - _config.yml
