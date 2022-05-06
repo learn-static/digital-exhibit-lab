@@ -23,10 +23,10 @@ source-code: https://github.com/learn-static/digital-exhibit-lab
 # title of site appears in banner
 title: Digital Exhibit Lab
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: A curated course project
+tagline: A Learn-Static Template
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A demo digital exhibit curated by students in Example course."
+description: "A Learn-Static template designed to teach digital scholarship concepts and critical literacies via a hands-on experience creating a digital exhibit."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: learn-static
 

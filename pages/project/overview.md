@@ -8,7 +8,9 @@ permalink: /project/overview.html
 
 # Digital Exhibit Lab Overview
 
-*Digital Exhibit Lab* module is a digital collection experience designed to actively teach digital scholarship concepts.
+Instructions for learners are published as part of your *Digital Exhibit Lab* project website.
+This demo site provides some example instructions and guidelines specific to a classroom experience.
+Instructors will customize these pages to their specific context and assignment details.
 
 *Digital Exhibit Lab* project involves several components:
 
