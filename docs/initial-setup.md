@@ -27,7 +27,7 @@ This is where you will give your project a title and set the metadata file to us
 
 Please follow the [CollectionBuilder Configuration documentation](https://collectionbuilder.github.io/cb-docs/docs/config/) to fill in the options.
 
-See ["sheets-metadata-logistics.md"](sheets-metadata-logistics.md) for options to use as `metadata-csv` value.
+See ["metadata-logistics.md"](metadata-logistics.md) for options to use as `metadata-csv` value.
 
 ## Further Customization
 

@@ -13,6 +13,7 @@ Instructors will make a copy of the template to configure and customize for thei
 The digital-exhibit-lab template repository can be copied on GitHub to quickly set up your customized Digital Exhibit Lab instance.
 GitHub's platform has free, builtin features to edit the project code, set up collaborative project management, and host your exhibit website.
 
+For an intro to the concept, see [About Digital Exhibit Lab](https://learn-static.github.io/digital-exhibit-lab/about.html).
 For more information about CollectionBuilder and how it works, please see the [CollectionBuilder About page](https://learn-static.github.io/digital-exhibit-lab/project/overview.html).
 
 ## Framing your Project
@@ -31,7 +32,7 @@ The template is flexible enough to accommodate digital objects from a variety of
 - external object links -- objects hosted online anywhere you can get a direct URL to the web accessible file (images, pdfs, mp3s, videos) can be added to the metadata. This provides a lot of flexibility to curate items from existing repositories without needing to add any files to the project.
 
 Metadata describing the set of objects will be created in a spreadsheet.
-For a collaborative online option, this can be done using Google Sheets.
+For a collaborative online option, this is usually done using Google Sheets.
 The exhibit website can directly load the metadata from Google Sheets (so that edits can be seen in realtime), other web accessible CSVs, or a CSV added to the project repository.
 
 How you gather the aggregation of items for the exhibit can change focus of the assignment.
@@ -66,7 +67,7 @@ Once you have decided on the parameters of your project, you are ready to set up
 
 - [Start a new project repository - "start-a-project.md"](start-a-project.md)
 - [Initial project setup - "initial-setup.md"](initial-setup.md)
-- [Set up metadata spreadsheet - "sheets-metadata-logistics.md"](sheets-metadata-logistics.md)
+- [Set up metadata spreadsheet - "metadata-logistics.md"](metadata-logistics.md)
 - [Collection objects and curation options - "collection-objects.md"](collection-objects.md)
 
 ## Resources

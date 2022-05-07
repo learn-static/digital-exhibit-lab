@@ -8,11 +8,11 @@ To get started, make a copy of the metadata template either on Google Sheets or 
 - [Copy the Metadata Template on Google Sheets](https://docs.google.com/spreadsheets/d/16ZxZ7yhFVne6rChY7frpzDN94sthAKsRU1UOvprwgzk/copy?usp=sharing)
 - Copy the ["metadata_template.csv"](metadata_template.csv)
 
-The digital-exhibit-lab template is configured to work with the fields in this spreadsheet, and the use of each field is described in the [Metadata Guidelines page](https://learn-static.github.io/digital-exhibit-lab/project/metadata.html).
+The digital-exhibit-lab template is configured to work with the fields in this spreadsheet, and the use of each field is described in the [Metadata Guidelines page](https://learn-static.github.io/digital-exhibit-lab/project/metadata.html) ("pages/project/metadata.md").
 Students can follow along step-by-step with the guidelines to create metadata records for their objects.
 
 You can tweak the [configuration options (following CollectionBuilder docs)](https://collectionbuilder.github.io/cb-docs/docs/customization/) to accommodate any metadata fields you can think up!
-Just be sure to update your project's copy of the metadata template and details in "page/project/metadata.md".
+Just be sure to update your project's copy of the metadata template and details in "pages/project/metadata.md".
 
 ## Course Logistics
 
@@ -22,9 +22,13 @@ The [template guidelines](https://learn-static.github.io/digital-exhibit-lab/pro
 We find this two step process avoids confusion on actively working in a shared spreadsheet.
 Students also have the opportunity to [test their metadata](https://learn-static.github.io/digital-exhibit-lab/project/setup.html), temporarily replacing the metadata on the live site.
 
+You may want to change this workflow depending on the objectives of your project--Google Sheets is a handy option, not a requirement!
+
 The [spreadsheet guidelines](https://learn-static.github.io/digital-exhibit-lab/project/spreadsheets.html) provide helpful tips for working with spreadsheets to ensure students have resources to develop these essential data skills.
 
-You may want to change this workflow depending on the objectives of your project--Google Sheets is a handy option, not a requirement!
+Once all metadata is submitted, it is a good idea to have a metadata refining and debugging step.
+Seeing how their metadata renders into content on the website will reveal issues and possibilities for making the metadata better.
+For example, students might discover items misplaced on the map due to swapped lat/long, or looking at the subject cloud realize the importance of using a controlled vocabulary.
 
 ## Configure Exhibit Metadata
 

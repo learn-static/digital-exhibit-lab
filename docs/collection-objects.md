@@ -6,6 +6,8 @@ In general your exhibit can contain three types of objects:
 - YouTube and Vimeo videos -- IDs referencing the videos added to the metadata in "youtubeid" or "vimeoid" columns.
 - external object links -- direct URLs to web accessible files (images, pdfs, mp3s, videos) referenced in the "filename" field.
 
+Student instructions are described in the [Digitization Guidelines](https://learn-static.github.io/digital-exhibit-lab/project/digitization.html) ("pages/project/digitization.md") and [Curation Guidelines](https://learn-static.github.io/digital-exhibit-lab/project/curation.html) ("pages/project/curation.md").
+
 ## Objects Folder
 
 This option is mostly likely to be used if your project involves digitization. 
