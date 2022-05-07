@@ -42,7 +42,7 @@ Now in hover your mouse over that cell, moving it to the lower right corner wher
 Push and hold your left mouse button, and drag straight down the column over about 10 rows, then release. 
 Your name value will fill in all the selected rows. 
 
-Next, in "objectid" enter `dcm-` then your initials then `01` (e.g. `dcm-ep01`).
+Next, in "objectid" enter `del-` then your initials then `01` (e.g. `del-ep01`).
 Hover over the cell, and follow the same click and drag as you did with your name to fill down the column.
 When you release, the values will fill in with the number automatically counting upward.
 

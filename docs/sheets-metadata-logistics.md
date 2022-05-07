@@ -1,4 +1,24 @@
-# CollectionBuilder-Sheets Metadata 
+# Digital Exhibit Lab Metadata 
+
+Metadata is central to any Digital Exhibit Lab project. 
+Metadata describing the collection objects is created in a spreadsheet, which drives the generation of features on the exhibit website. 
+
+To get started, make a copy of the metadata template either on Google Sheets or via the CSV file:
+
+- [Copy the Metadata Template on Google Sheets](https://docs.google.com/spreadsheets/d/16ZxZ7yhFVne6rChY7frpzDN94sthAKsRU1UOvprwgzk/copy?usp=sharing)
+- Copy the ["metadata_template.csv"](metadata_template.csv)
+
+The digital-exhibit-lab template is configured to work with the fields in this spreadsheet. 
+You can also tweak the [configuration options (following CollectionBuilder docs)](https://collectionbuilder.github.io/cb-docs/docs/customization/) to accommodate any metadata fields you can think up!
+
+## Course Logistics
+
+Depending on how you frame and set up your project, you will want to set up collaboration on the metadata spreadsheet. 
+
+The [template guidelines](https://learn-static.github.io/digital-exhibit-lab/project/metadata.html) assume the student will create their own metadata, then contribute their records to a single shared Google Sheet that is read by the exhibit website.
+You may want to change this workflow depending on the objectives of your project. 
+
+## Technical Background
 
 CollectionBuilder-Sheets loads and parses a metadata CSV directly to create your digital collection pages. 
 Prep your metadata following the template, then reference it's location in the "_config.yml", and you are ready to go!
