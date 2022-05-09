@@ -16,6 +16,18 @@ GitHub's platform has free, builtin features to edit the project code, set up co
 For an intro to the concept, see [About Digital Exhibit Lab](https://learn-static.github.io/digital-exhibit-lab/about.html).
 For more information about CollectionBuilder and how it works, please see the [CollectionBuilder About page](https://learn-static.github.io/digital-exhibit-lab/project/overview.html).
 
+## The Project
+
+*Digital Exhibit Lab* projects can include different methods of curating objects to include in the collection exhibit, starting from a pre-created collection, curating from existing digital collections, digitizing new objects, or a combination.
+Project steps can include:
+
+- **Archival Research:** Working with special collections and/or archives departments, students explore and do hands-on research with primary source materials related to the course subjects.
+- **Digitization:** From their archival research, students select primary sources to digitize. Working with the digitization lab or DH center, they scan their selected items and prepare digital files.
+- **Curation:** Students explore their institution's digital collections or specific external collections to do online archival research. They select items from existing digital collections, creating metadata for their curated records.
+- **Description and Metadata:** Students create metadata following a collection template to describe their digitized and curated items.
+- **Exhibit:** Once all objects and metadata are submitted, the template generates the final digital collection. 
+- **Research and Reflection:** Students write papers and/or reflections informed by their archival research. Traditional term papers could use images from and citations to the course collection. Alternatively, students can write multi-modal essays directly in the exhibit website using markdown.
+
 ## Framing your Project
 
 Digital Exhibit Lab can be framed in different ways depending on which aspects of the archival research and digital scholarship you want to focus on, 
