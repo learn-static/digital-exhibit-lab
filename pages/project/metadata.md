@@ -115,9 +115,10 @@ For curated items, use the existing metadata as a guide and starting point.
 
 - A geographic coordinate specifying the north-south position of an item.
 - Example value: `46.731643`
-- latitude and longitude can be found using online mapping programs: 
+- Latitude and longitude can be found using online mapping programs: 
+    - On [Google Maps](https://www.google.com/maps/) search or move the map to approximate location, then right click on a point and select the lat/long displayed at the top of the menu. This will copy the lat/long values to your clipboard, allowing you to paste them into your metadata spreadsheet.
+    - On [Open Street Map](https://www.openstreetmap.org/) search or move the map to approximate location, then right click on a point and select "Show address" from the menu. The lat/long will display on the left side panel, where you can copy and paste to your metadata.
     - On [iTouch Maps](https://itouchmap.com/?r=latlong) search or move the map to approximate location, then hold Shift and click on the spot. The lat/long will display below.
-    - On [Google Maps](https://www.google.com/maps/) click on the map, a box with the lat/long will display at the bottom. Double clicking on a spot will center the map on that location, and the lat/long is added to the URL where you can copy it from the address bar.
 
 ### longitude
 
