@@ -85,6 +85,6 @@ We suggest creating your CSV using OpenRefine, Sheets, or LibreOffice Calc (and 
 
 To use a CSV hosted in a GitHub repository, use the "raw" link.
 
-`metadata-csv: https://raw.githubusercontent.com/CollectionBuilder/collectionbuilder-sample-data/master/psychiana_cbdemo_gh.csv`
+`metadata-csv: https://raw.githubusercontent.com/CollectionBuilder/collectionbuilder-sample-data/main/psychiana_cbdemo_gh.csv`
 
 *Note:* depending on where your CSV is hosted, you may encounter [CORS errors](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors).
