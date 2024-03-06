@@ -49,15 +49,6 @@ organization-link: https://github.com/learn-static
 organization-logo-banner: /assets/img/learn-static.svg
 organization-logo-nav: /assets/img/learn-static-white.svg
 
-
-##########
-# GOOGLE SERVICES [optional!]
-#
-# leave these blank or comment out to NOT include google code. See docs/google.md
-#
-# Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
-# google-analytics-id: 
-
 ##########
 # ROBOTS EXCLUDE
 #
@@ -71,8 +62,8 @@ organization-logo-nav: /assets/img/learn-static-white.svg
 # JEKYLL_ENV=production jekyll build
 # (this is done automatically by gh-pages build)
 #
-# add development refresh button
-development-refresh: true
+# dev mode turns on ability to change metadata
+development-mode: true
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
