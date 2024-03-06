@@ -9,7 +9,6 @@
 # featured image is used in home page banner and in meta markup to represent the collection
 # use a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
 featured-image: https://digital.lib.uidaho.edu/digital/iiif/bar-stock/985/full/max/0/default.jpg
-# from https://www.lib.uidaho.edu/digital/barstock/items/barstock985.html
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 9em # Default is 8em
 # optional: change position of background image, center, top, bottom
@@ -24,7 +23,7 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: subject # set the field to be featured in the cloud (if left blank, none will be generated)
+subjects-fields: subject;creator # set the field to be featured in the cloud (if left blank, none will be generated)
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
@@ -59,9 +58,22 @@ year-nav-increment: 5 # set increments when auto gen nav years
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format_original,format,rightsstatement,record_contributor,filename"
+metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,format_original,language,rights,rightsstatement,record_contributor"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
+
+##########
+# COMPOUND OBJECTS
+# 
+# Ignore this section if you are not including any compound objects
+# Note, like other items, child objects will only appear in visualizations if they have the correct metadata (lat long for map; date for timeline)
+# select true below if you'd like your compound object's child objects to appear in any of the pages or features listed
+map-child-objects: true # true / false - if true, and if child item has latitude and longitude, child objects will be displayed on map
+timeline-child-objects: true # true / false - if true, and if child object has date, child objects will appear as thumbnails on timeline page
+data-child-objects: false # true / false - if true, child objects will appear linked in table on data page
+carousel-child-objects: false # true / false - if true, child objects will appear on homepage carousel
+browse-child-objects: false # true / false - if true, child objects will appear on browse page and child objects' metadata will populate cloud pages like Subjects page and Locations page, as well as featured terms boxes on the home page
+search-child-objects: true # true / false - if true, child objects will appear on on search page along with parent objects
 
 ##########
 # ADVANCED OPTIONS
@@ -83,7 +95,7 @@ bootswatch: # leave blank or comment out for plain bootstrap
 # THEME FONTS
 base-font-size: 1.2em
 text-color: "#191919"
-link-color: "#0032ff"
+link-color: "#0d6efd"
 base-font-family: # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
@@ -95,8 +107,14 @@ font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/c
 #
 # icons: 
 #   icon-image: image
-#   icon-audio: file-earmark-play
-#   icon-video: camera-video
-#   icon-pdf: file-earmark-text 
+#   icon-audio: soundwave
+#   icon-video: film
+#   icon-pdf: file-pdf
+#   icon-record: file-text
+#   icon-compound-object: collection
+#   icon-multiple: postcard
 #   icon-default: file-earmark # fall back icon
 #   icon-back-to-top: arrow-up-square # scroll to top icon
+#   arrow-left: arrow-left
+#   arrow-right: arrow-right
+#   arrow-down: arrow-down

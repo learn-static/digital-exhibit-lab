@@ -6,30 +6,32 @@ Check all the includes. Steal Code!
 
 #### Image from Collection (auto caption)
 
-{% include feature/image.html objectid="demo_001" width="75" %}
+{% include feature/image.html objectid="psychiana030"  %}
 
-Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001" width="75" %}{% endraw %}`
+Example Code --> `{% raw %}{% include feature/image.html objectid="psychiana030" width="75" %}{% endraw %}`
 
 
 #### Image from Collection (with a caption)
 
-{% include feature/image.html objectid="demo_001" width="75" caption="an image" %}
+{% include feature/image.html objectid="psychiana031" width="75" caption="an image" %}
 
 Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001" width="75" caption="an image" %}{% endraw %}`
 
 
 #### Multiple Images from the Collection (auto caption)
 
-{% include feature/image.html objectid="demo_001;demo_004;demo_005"  %}
+{% include feature/image.html objectid="psychiana032;psychiana034;psychiana033;"  %}
 
 Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001;demo_004;demo_005"  %}{% endraw %}`
 
 
 #### Multiple Images from the Collection (with captions)
 
-{% include feature/image.html objectid="demo_001;demo_004;demo_005" width="75" caption="demo1;nother" %}
+{% include feature/image.html objectid="psychiana034;psychiana038;psychiana040" caption="one;two;three" %}
 
-Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001;demo_004;demo_005" width="75" caption="demo1;nother" %}{% endraw %}`
+Example Code --> `{% raw %}{% include feature/image.html objectid="demo_001;demo_004;demo_005" width="75" caption="demo1;nother;" %}{% endraw %}`
+
+
 
 
 #### External Image (without a caption)
@@ -52,28 +54,27 @@ Example Code --> `{% raw %}{% include feature/image.html objectid="https://www.l
 
 Example Code --> `{% raw %}{% include feature/image.html objectid="https://www.lib.uidaho.edu/collectionbuilder/demo-objects/mg101_b6_photographs_01.jpg;https://www.lib.uidaho.edu/collectionbuilder/demo-objects/mg101_b6_psychiana_photographs_010.jpg" caption="this guy!;(was nothing without these women!)" link="https://www.lib.uidaho.edu/digital/psychiana/items/psychiana519.html;https://www.lib.uidaho.edu/digital/psychiana/items/psychiana547.html" alt="Frank B. Robinson at the Organ;Women staff members of Psychiana lined up outside the Psychiana headquarters" %}{% endraw %}`
 
-
 ### PDF Options
 
 #### PDF from Collection (auto caption)
 
-{% include feature/pdf.html objectid="demo_002" width="50" %}
+{% include feature/pdf.html objectid="psychiana046" width="50" %}
 
 Example Code --> `{% raw %}{% include feature/pdf.html objectid="demo_002" width="50" %}{% endraw %}`
 
 
 #### PDF from the Collection (with a caption)
 
-{% include feature/pdf.html objectid="demo_002" width="50" caption="a pdf from the collection" %}
+{% include feature/pdf.html objectid="psychiana045" width="50" caption="a pdf from the collection" %}
 
 Example Code --> `{% raw %}{% include feature/pdf.html objectid="demo_002" width="50" caption="a pdf from the collection" %}{% endraw %}`
 
 
 #### External PDF (without a caption)
 
-{% include feature/pdf.html objectid="https://www.lib.uidaho.edu/collectionbuilder/demo-objects/uiext21768.pdf" width="50" %}
+{% include feature/pdf.html objectid="https://www.lib.uidaho.edu/digital/objects/bach-festival/idaho-bach-festival-05-poster.pdf" width="50" %}
 
-Example Code --> `{% raw %}{% include feature/pdf.html objectid="https://www.lib.uidaho.edu/collectionbuilder/demo-objects/uiext21768.pdf" width="50" %}{% endraw %}`
+Example Code --> `{% raw %}{% include feature/pdf.html objectid="https://www.lib.uidaho.edu/digital/objects/bach-festival/idaho-bach-festival-05-poster.pdf" width="50" %}{% endraw %}`
 
 
 #### External PDF (with a caption)
@@ -87,14 +88,14 @@ Example Code --> `{% raw %}{% include feature/pdf.html objectid="https://www.lib
 
 #### Video from Collection (auto caption)
 
-{% include feature/video.html objectid="demo_004" width="75" %}
+{% include feature/video.html objectid="psychiana001"  %}
 
 Example Code --> `{% raw %}{% include feature/video.html objectid="demo_004" width="75" %}{% endraw %}`
 
 
 #### Video from the Collection (with a caption)
 
-{% include feature/video.html objectid="demo_004" width="50" caption="a video from the collection" %}
+{% include feature/video.html objectid="psychiana001" width="50" caption="a video from the collection" %}
 
 Example Code --> `{% raw %}{% include feature/video.html objectid="demo_004" width="50" caption="a video from the collection" %}{% endraw %}`
 
@@ -131,14 +132,14 @@ Example Code --> `{% raw %}{% include feature/video.html objectid="https://www.y
 
 #### Audio from Collection (auto caption)
 
-{% include feature/audio.html objectid="demo_003" width="50" %}
+{% include feature/audio.html objectid="psychiana003" width="50" %}
 
 Example Code --> `{% raw %}{% include feature/audio.html objectid="demo_003" width="50" %}{% endraw %}`
 
 
 #### Audio from the Collection (with a caption)
 
-{% include feature/audio.html objectid="demo_003" width="50" caption="a mp3 from the collection" %}
+{% include feature/audio.html objectid="psychiana004" width="50" caption="a mp3 from the collection" %}
 
 Example Code --> `{% raw %}{% include feature/audio.html objectid="demo_003" width="50" caption="a mp3 from the collection" %}{% endraw %}`
 

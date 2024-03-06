@@ -10,8 +10,6 @@ longitude,Longitude
 source,Source
 identifier,Source Identifier,,
 type,Type,
-format_original,Original Format,,
 format,Format,
+rights,Rights,
 rightsstatement,Rights Statement,,true
-record_contributor,Record Contributor,true,
-item_source,Item from,true,
