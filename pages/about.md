@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://digital.lib.uidaho.edu/digital/iiif/watkins/56/full/pct:70/0/default.jpg" %}
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/watkins/small/watkins56_sm.jpg" %}
 
 {% include feature/nav-menu.html sections="About Digital Exhibit Lab;The Project;Documentation" %}
 

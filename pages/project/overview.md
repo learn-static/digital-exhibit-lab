@@ -4,7 +4,7 @@ layout: page-narrow
 permalink: /project/overview.html
 ---
 
-{% include feature/jumbotron.html objectid="https://digital.lib.uidaho.edu/digital/iiif/watkins/56/full/pct:60/0/default.jpg" %}
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/watkins/small/watkins56_sm.jpg" %}
 
 # Digital Exhibit Lab Overview
 

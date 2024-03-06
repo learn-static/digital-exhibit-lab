@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
-featured-image: https://digital.lib.uidaho.edu/digital/iiif/bar-stock/985/full/max/0/default.jpg
+featured-image: https://objects.lib.uidaho.edu/barstock/barstock985.jpg
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 9em # Default is 8em
 # optional: change position of background image, center, top, bottom
